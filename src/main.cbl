@@ -28,9 +28,9 @@ PROCEDURE DIVISION.
                  cvox, cvoy, cvoz,
                  cvx, cvy, cvz
               CALL 'SPHERE-INTERSECT' USING
-                 sphere(1),sphere(2),sphere(3),sphere(4),
+                 sphere(1), sphere(2), sphere(3), sphere(4),
                  cvox, cvoy, cvoz,
-                 cvx, cvy, cvz,ret
+                 cvx, cvy, cvz, ret
 *>            Awful shading (intersect = solid 'X')
               IF ret > 0.1 THEN
                  DISPLAY 'X' WITH NO ADVANCING
