@@ -4,7 +4,7 @@ A day spent trying out COBOL by porting over a raycaster. Has only one sphere an
 
 ## Usage
 
-Compile: `cobc -free -x -o cast main.cbl sphereintersect.cbl dot.cbl vsub.cbl cross.cbl vadd.cbl vscale.cbl vnorm. cbl camera.cbl`
+Compile: `cobc -free -x -o cast main.cbl sphereintersect.cbl dot.cbl vsub.cbl cross.cbl vadd.cbl vscale.cbl vnorm.cbl camera.cbl`
 
 Run: `./cast`
 

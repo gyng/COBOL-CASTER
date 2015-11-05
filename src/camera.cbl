@@ -58,7 +58,6 @@ PROCEDURE DIVISION USING x, y, w, h, vox, voy, voz, vx, vy, vz.
         DIVIDE camh BY h GIVING pixh.
 
         COMPUTE tmp = x * pixw - halfw.
-
         CALL 'VSCALE' USING rx, ry, rz, tmp, rx, ry, rz.
 
         COMPUTE tmp = y * pixh - halfh.
